@@ -1,36 +1,3 @@
-// import React, { useState } from "react";
-
-// // Dashboard
-
-// // Main Auth UI
-// export default function AuthUI() {
-//   const [view, setView] = useState("login");
-//   const [user, setUser] = useState(null);
-
-
-//   return (
-//     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 p-4">
-//       {view === "login" && (
-//         <Login
-//           onSwitch={() => setView("signup")}
-//           onLogin={handleLogin}
-//         />
-//       )}
-
-//       {view === "signup" && (
-//         <Signup
-//           onSwitch={() => setView("login")}
-//           onSignup={handleSignup}
-//         />
-//       )}
-
-//       {view === "dashboard" && (
-//         <Dashboard user={user} onLogout={handleLogout} />
-//       )}
-//     </div>
-//   );
-// }
-
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Login from "./pages/login";
